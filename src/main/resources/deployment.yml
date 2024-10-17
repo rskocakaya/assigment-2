@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: springboot-postgres-k8s
-          image: springboot-postgres-k8s:1.0
+          image: rsmtkcky/springboot-postgres-k8s:1.1
           ports:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
