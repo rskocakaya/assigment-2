@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: springboot-postgres-k8s
-          image: rsmtkcky/springboot-postgres-k8s:1.1
+          image: rsmtkcky/springboot-postgres-k8s:24
           ports:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
@@ -55,5 +55,6 @@ spec:
                 secretKeyRef:
                   name: postgres-credentials
                   key: postgres_password
+                  
 
 
